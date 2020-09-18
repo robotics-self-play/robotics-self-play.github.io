@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body id="top">
+
+    <!-- <div style="height: calc(100vw * 8 / 28);">
+      <video style="width: 100%; position: fixed; top: 0; z-index: -999;" autoplay loop muted>
+        <source src="./assets/zero-shot/stack-3-blocks-v2.mp4" type="video/mp4">
+      </video>
+    </div> -->
+
+    <main class="page-content" aria-label="Content" style="background-color: white;">
+      <div class="wrapper">
+
+        <header class="post-header">
+            <h1 class="post-title" style="font-size: 3em;">Asymmetric self-play for automatic goal discovery in robotic manipulation</h1>
+        </header>
+
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

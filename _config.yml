@@ -1,0 +1,15 @@
+title: Robotics Asymmetric Self-Play
+description: >-
+  We use asymmetric self-play to train a goal-conditioned policy for complex object manipulation tasks, and the learned policy can zero-shot generalize to many manually designed holdout tasks.
+baseurl: "/"
+url: "https://robotics-self-play.github.io"
+
+markdown: kramdown
+theme: minima
+
+plugins: ['jekyll/scholar']
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
