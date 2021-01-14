@@ -5,7 +5,7 @@ permalink: /
 
 <!-- # Overview -->
 
-[Paper](https://openreview.net/pdf?id=hu2aMLzOxC)
+[Paper](https://arxiv.org/abs/2101.04882)
 
 We train a single, goal-conditioned policy that can solve many robotic manipulation tasks, including tasks with previously unseen goals and objects. To do so, we rely on asymmetric self-play for goal discovery, where two agents, Alice and Bob, play a game. Alice is asked to propose challenging goals and Bob aims to solve them. We show that this method is able to discover highly diverse and complex goals without any human priors. 
 
